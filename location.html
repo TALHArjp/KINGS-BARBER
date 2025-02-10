@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    </head>
+<body>
+    <section>
+        <div class="container">
+            <div class="bg-nav-fix">
+            <nav class="custom-row custom-navbar custom-expand-md fixed-top location-nav" >
+                <div class="custom-col-5 custom-nav-black custom-px-0 location-nav-1313">
+                    <a class="custom-navbar-brand locat-nav-img" href="index.html">
+                        <img src="https://kingsbarberclub.co.uk/wp-content/uploads/2022/03/White-Logo.png" alt="Kings Logo">
+                    </a>
+                </div>
+                <div class="custom-col-7 custom-nav-fff custom-pl-0">
+                    <div class="navbar-desktop">
+                        <div class="desktop-nav-links-main">
+                            <ul class="desktop-nav-menu">
+                                <li class="desktop-menu-links"><a href="#">Locations</a></li>
+                                <li class="desktop-menu-links"><a href="gallery.html">Gallery</a></li>
+                                <li class="desktop-menu-links"><a href="contact.html">Contact Us</a></li>
+                                <li class="desktop-menu-links"><a href="careers.html">CAREERS</a></li>
+                                <li class="desktop-menu-links"><a href="book.html#reg-form333">Book</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="custom-navbar-toggler" type="button">
+                        <img class="menu-icon" src="https://kingsbarberclub.co.uk/wp-content/uploads/2021/01/crown-icon-2x.png" alt="menuicon">
+                    </button>
+                </div>
+                <div class="custom-collapse custom-navbar-collapse">
+                    <button class="custom-navbar-toggler" type="button">
+                        <img class="close-icon" src="https://kingsbarberclub.co.uk/wp-content/themes/Kings-Barber-Club/images/add (1).svg" alt="">
+                    </button>
+                    <ul id="custom-menu-top-menu" class="custom-menu">
+                        <li class="custom-menu-item"><a href="location.html">Locations</a></li>
+                        <li class="custom-menu-item"><a href="gallery.html">Gallery</a></li>
+                        <li class="custom-menu-item"><a href="contact.html">Contact Us</a></li>
+                        <li class="custom-menu-item"><a href="">Blog</a></li>
+                        <li class="custom-menu-item"><a href="careers.html">CAREERS</a></li>
+                    </ul>
+                    <ul id="custom-menu-top-menu" class="custom-menu-2">
+                        <li class="custom-menu-item-2 fb-link"><a href="https://kingsbarberclub.co.uk/locations/"> <span>Follow us:</span></a></li>
+                        <li class="custom-menu-item-2"><a href="https://kingsbarberclub.co.uk/gallery/"><span>Facebook</span></a></li>
+                        <li class="custom-menu-item-2"><a href="https://kingsbarberclub.co.uk/contact-us/"><span>Instagram</span></a></li>
+                        <li class="custom-menu-item-2"><a href="https://kingsbarberclub.co.uk/contact-us/"><span>Twiter</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </div>
+    </section>
+    <section class="section-locations">
+        <div class="container">
+            <div class="main-locat">
+                <div class="hero-section-top">
+                    <div class="kbc-locations--h">
+                        <img class="img-fluid kbc-locations--icon" src="https://kingsbarberclub.co.uk/wp-content/uploads/2021/01/compass-1-1-1.svg" alt="Locations">
+                        <h1 class="locations-h">Locations</h1>
+                    </div>
+                    <div class="location-tabs">
+                        <div class="tabs-wraper"> 
+                            <div class="tab">
+                                <button class="tablinks  btn-11 active-tab" onclick="openCity(event, 'Aldridge')">Aldridge</button>
+                                <button class="tablinks  btn-1" onclick="openCity(event, 'Boldmere')">Boldmere</button>
+                                <button class="tablinks lefty-tab btn-1 btn-33" onclick="openCity(event, 'Canley')">Canley</button>
+                                <button class="tablinks  btn-12 btn-33" onclick="openCity(event, 'Fazeley')">Fazeley</button>
+                                <button class="tablinks  btn-1" onclick="openCity(event, 'FiveWays')">Five Ways</button>
+                                <button class="tablinks lefty-tab btn-1" onclick="openCity(event, 'Kingswinford')">Kingswinford</button>
+                                <button class="tablinks  btn-1" onclick="openCity(event, 'MereGreen')">Mere Green</button>
+                                <button class="tablinks  btn-1" onclick="openCity(event, 'Shirley')">Shirley</button>
+                                <button class="tablinks lefty-tab btn-1" onclick="openCity(event, 'Solihull')">Solihull</button>
+                                <button class="tablinks  btn-13" onclick="openCity(event, 'Walmley')">Walmley</button>
+                                <button class="tablinks btn-13" onclick="openCity(event, 'WyldeGreen')">Wylde Green</button>
+                                <button class="tablinks  btn-15" onclick="openCity(event, 'London')">London (Asda Beckton)</button>
+                                <button class="tablinks  btn-16" onclick="openCity(event, 'HighWycombe')">High Wycombe (Asda)</button>
+                            </div>
+                        </div>
+                        <div class="location-tab-content">
+                            <div class="locat-info-button-top tab2">
+                                <button class="info-butoon-top infooo" style="color: rgb(255, 255, 255);">Acocks Green
+                                </button>
+                                <button class="info-butoon-top" style="background-color: #f8f8f8ff; color: black;">Information</button>
+                            </div>
+                            <div class="locat-content-wraper">
+                                <div class="locat-tab-content-item">
+                                    <div id="Aldridge" class="tabcontent active">
+                                      <h3>Aldridge</h3>
+                                      <p></p>
+                                      <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                      <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                      <p class="address-loc-tab1">29 High St, Aldridge,</p>
+                                      <p class="locat-info-address">Walsall WS9 8LX</p>
+                                      <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                    </div>
+                                    
+                                    <div id="Boldmere" class="tabcontent">
+                                        <h3>Boldmere</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>55 Boldmere Rd,</p>
+                                        <p class="locat-info-address">Sutton Coldfield B73 5XA</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+                                    
+                                      <div id="Canley" class="tabcontent">
+                                        <h3>Canley</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>Sainsburys Canley, 330 Fletchamstead Hwy,</p>
+                                        <p class="locat-info-address">Coventry CV4 9BJ</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+                                    
+                                      <div id="Fazeley" class="tabcontent">
+                                        <h3>Fazeley</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>Unit 1, Jet Petrol Station,</p>
+                                        <p class="locat-info-address">Lichfield Street, Fazeley B78 3QA</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="FiveWays" class="tabcontent">
+                                        <h3>Five Ways</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>42 ISLINGTON ROW, FIVE WAYS,</p>
+                                        <p class="locat-info-address">EDGBASTON, B15 1LD</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="Kingswinford" class="tabcontent">
+                                        <h3>Kingswinford</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>11 market street, Kingswinford</p>
+                                        <p class="locat-info-address">DY6 9JS</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="MereGreen" class="tabcontent">
+                                        <h3>Mere Green</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>5 Mere Green Road, Mere Green,</p>
+                                        <p class="locat-info-address">Sutton Coldfield B75 5BL</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="Shirley" class="tabcontent">
+                                        <h3>Shirley</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>214 Stratford Rd, Shirley,</p>
+                                        <p class="locat-info-address">Solihull B90 3AG</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="Solihull" class="tabcontent">
+                                        <h3>Solihull</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p class="high--95">95 High St,</p>
+                                        <p class="locat-info-address">Solihull B91 3SW</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="Walmley" class="tabcontent">
+                                        <h3>Walmley</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 285 5006</p>
+                                        <p>36 Walmley Rd, Walmley,</p>
+                                        <p class="locat-info-address">Sutton Coldfield B76 1QN</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="WyldeGreen" class="tabcontent">
+                                        <h3>Wylde Green</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh">CONTACT NUMBER:</p>
+                                        <p class="locat-phone-nmbr">+44 121 386 1007</p>
+                                        <p>385 Birmingham Rd, Wylde Green,</p>
+                                        <p class="locat-info-address">Sutton Coldfield B72 1AT</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="London" class="tabcontent">
+                                        <h3>London (Asda Beckton)</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh"></p>
+                                        <p class="locat-phone-nmbr"></p>
+                                        <p>Tollgate Rd</p>
+                                        <p class="locat-info-address">Beckton, London, E6 5JP</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+
+                                      <div id="HighWycombe" class="tabcontent">
+                                        <h3>High Wycombe (Asda)</h3>
+                                        <p></p>
+                                        <p class="locat-contact-nnh"></p>
+                                        <p class="locat-phone-nmbr"></p>
+                                        <p>Holmers Farm Way</p>
+                                        <p class="locat-info-address">High Wycombe HP12 4NU</p>
+                                        <a href="#" class="locat-info-btn"><u>BOOK ONLINE</u></a>
+                                      </div>
+                                </div>
+                                <div class="loact-tab-image">
+                                    <div class="locat-tab-img-wrap"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="opening-time">
+       <div class="container">
+          <div class="row">
+            <div class="open-shop-img">
+                <div class="img-wraper">
+                    <p class="kbc-loc--name">Aldridge</p>
+                    <div class="kbc-otime">
+                        <p class="text-uppercase">Opening Times</p>
+                        <p class="kbc-only--white"></p>
+                        <img class="image-two" src="https://kingsbarberclub.co.uk/wp-content/uploads/2021/01/Image-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="opentime-setup">
+                <div class="opentime-setup-wraper">
+                    <ul class="kbc-timing">
+                        <li>MONDAY <span class="float-right">09:00am - 07:00pm</span></li>
+                        <li>TUESDAY <span class="float-right">09:00am - 07:00pm</span></li>
+                        <li>WEDNESDAY <span class="float-right">09:00am - 07:00pm</span></li>
+                        <li>THURSDAY <span class="float-right">09:00am - 07:00pm</span></li>
+                        <li>FRIDAY <span class="float-right">09:00am - 07:00pm</span></li>
+                        <li>SATURDAY <span class="float-right">09:00am - 07:00pm</span></li><br>
+                        <li class="closed-shop">SUNDAY <span class="float-right">10:00am - 05:00pm</span></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+       </div>
+    </section>
+    <section class="offer-inbox">
+        <div class="container">
+            <div class="offer-inbox-bg">
+                <div class="offer-inner-wraper">
+                    <div class="row">
+                        <div class="offer-inner-left">
+                            <div class="offer-inner-left-content">
+                                <h3>OFFERS IN YOUR INBOX</h3>
+                                <p>JOIN THE KINGS CLUB</p>
+                                <p>No fuss no muss, subscribe to be the first 
+                                    to get discounts, deals and more. Stay in the loop 
+                                    with all things Kings, barnets and beards.</p>
+                                <button class="btnnb"><a href="javascript:void(0);">SUBSCRIBE</a></button>
+                            </div>
+                        </div>
+                        <div class="offer-inner-right">
+                            <img src="https://kingsbarberclub.co.uk/wp-content/uploads/2020/12/offer-img.png" alt="CTAimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="CTABlurImg">
+                <img src="https://kingsbarberclub.co.uk/wp-content/uploads/2021/01/blur-red-circle.png" alt="BlurImg">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+        <div class="footer">
+        <div class="footer-main">
+            <div class="row footer-top">
+                <div class="col-md-6 p-0">
+                    <div id="footer-widget" class="secondary">
+                        <div id="footer-widget-1">
+                            <div>
+                                <div class="menu-secondry-container">
+                                    <ul id="menu-secondry" class="menu menu-locat-footer">
+                                        <li id="menu-item-1001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1001">
+                                            <a href="#">Web</a>
+                                        </li><br>
+                                        <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101">
+                                            <a href="https://kingsbarberclub.co.uk/book-now/">Book</a>
+                                        </li><br>
+                                        <li id="menu-item-1002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
+                                            <a href="https://kingsbarberclub.co.uk/contact-us/">Call Now</a>
+                                        </li><br>
+                                        <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
+                                            <a href="https://kingsbarberclub.co.uk/gallery/">Gallery</a>
+                                        </li><br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="social-widget">
+                                <div class="univ-nav__followdiv">
+                                    <ul class="univ-nav__follow ">
+                                        <li><a href="">Social</a></li><br>
+                                        <li><a href="https://facebook.com/kingsbarbersclub">Facebook</a></li><br>
+                                        <li><a href="https://instagram.com/kingsbarbersclub">Instagram</a></li><br>
+                                        <li><a href="https://twitter.com/KingsbarbersUK">Twitter</a></li><br>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-md-6 p-0">
+                    <a class="navbar-brand-footer" href="https://kingsbarberclub.co.uk">
+                        <img src="https://kingsbarberclub.co.uk/wp-content/uploads/2021/02/kings-barbers-club-Crown-white-2.png" alt="Kings Barbers Club Logo">
+                    </a>              
+                </div>
+            </div>
+            <div class="footer-copy">            
+                <div class="kbc-footer--sublogos">
+                    <img class="kbc-footer--kcl" src="https://kingsbarberclub.co.uk/wp-content/uploads/2022/03/White-Logo.png" alt="Kings Club Logo">
+                    <img class="kbc-footer--kbcl" src="https://kingsbarberclub.co.uk/wp-content/uploads/2021/02/kings-barbers-club-Crown-white-2.png" alt="Kings Barbers Club Logo">
+                </div>
+                <div class="clearfix">
+                </div>
+                <ul>
+                    <div style="display: flex;">
+                        <li class="liii fooooter">
+                        <a href="https://kingsbarberclub.co.uk/terms-conditions/">Terms + Conditions</a>
+                    </li>
+                    <li class="d-md-block d----none"> 
+                        <a href="https://kingsbarberclub.co.uk/privacy-policy/"  class="footer--terms-bb">Privacy Policy</a>
+                    </li>
+                    <li >
+                        <a href="javascript:void(0);">
+                            <div class="site-info-lo footer--terms-bb" >
+                                Kings Barber Club 2025
+                            </div>
+                        </a>
+                    </li>
+                  </div>
+                    <li class="footer--terms-22">
+                        <a href="https://www.regentbranding.co.uk" target="_blank">
+                            <div class="site-info-li fooooter-2" style="text-transform: capitalize;">
+                                Site by Regent   
+                            </div>
+                        </a>
+                        <a href="http://www.liansa.co.uk" target="_blank" class="-bb">
+                            <div class="site-info-la footer--terms footer--terms-bb" style="text-transform: capitalize; ">
+                                Design by Liansa Branding
+                            </div>
+                        </a>                        
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
